@@ -1,0 +1,8 @@
+/*
+  X-Content-Type-Options: nosniff
+
+/topics/*.topic
+  Content-Type: text/plain; charset=utf-8
+
+/topics/*.json
+  Content-Type: application/json; charset=utf-8
