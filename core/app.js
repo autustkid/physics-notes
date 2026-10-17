@@ -97,7 +97,7 @@ class PhysicsApp {
         AnimationManager.init();
 
         try {
-            this.catalog = await Utils.loadJSON('topics/_index.json');
+            this.catalog = await Utils.loadJSON('topics/index.json');
             this.buildBasicIndex();
         } catch (e) {
             this.showError('Не удалось загрузить каталог тем. ' + e.message);
